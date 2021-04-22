@@ -10,7 +10,7 @@ public class StackQueue implements Queue{
 	
 	@Override
 	public int size() {
-		return stack2.size();
+		return stack1.size() + stack2.size();
 	}
 
 	@Override
