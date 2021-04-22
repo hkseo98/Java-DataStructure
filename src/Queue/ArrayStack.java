@@ -60,18 +60,6 @@ public class ArrayStack implements Stack {
 	            return stackArr[top--];
 	        }     
 	}
-		 public void printStack() {
-		        if(isEmpty()) {
-		            System.out.println("Stack is empty!");
-		        } else {
-		            System.out.print("Stack elements : ");
-		            for(int i=0; i<=top; i++) {
-		                System.out.print(stackArr[i] + " ");
-		            }
-		            System.out.println();
-		        }
-	}
-	
 
 	 public static void main(String args[]) {
 		 	char[] input = sc.nextLine().toCharArray();
